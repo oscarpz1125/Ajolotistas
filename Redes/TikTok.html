@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comunidad</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('../Img/Morado.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: repeat;
+        }
+        .container {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            color: rgb(0, 0, 0);
+            padding: 50px;
+        }
+        .container h1 {
+            font-size: 48px;
+            margin-bottom: 30px;
+        }
+        .container h2 {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 5px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: black;
+            background-color: #FFD700;
+            border: 2px solid black;
+        }
+        .container h2:hover {
+            background-color: #FFFF00;
+            cursor: pointer;
+        }
+        .center-image {
+            display: block;
+            margin: 0 auto;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+        }
+        .text-area {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 400px;
+            height: 100px;
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 5px;
+            resize: none;
+        }
+    </style>
+    <script>
+        function redirect(url) {
+            window.location.href = url;
+        }
+    </script>
+</head>
+<body class="pixelify-sans">
+    <div class="container">
+        <h1>TikTok</h1>
+        <img class="center-image" src="../Img/tiktok.png" alt="Centered Image">
+        <div class="button-group">
+            <h2 onclick="redirect('https://www.tiktok.com/@lara_lma07?_t=8l97TZQ7oIq&_r=1');"class="button back-button">TikTok</h2>
+        </div>
+        <textarea class="text-area" placeholder="Hola a tod@s! si te gusta mi contenido, pulsa el botón y te llevara a mi Tik Tok, para que no te pierdas mis videos❣️."></textarea>
+    </div>

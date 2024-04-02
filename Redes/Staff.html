@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comunidad</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('../Img/Morado.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: repeat;
+        }
+        .container {
+            position: relative;
+            z-index: 1;
+            color: rgb(0, 0, 0);
+            padding: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center; 
+        }
+        .container h1 {
+            font-size: 48px;
+            margin-bottom: 30px;
+            margin-right: auto; 
+        }
+        .center-image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 70%;
+        }
+        .center-image {
+            width: 300px;
+            height: 330px; /* Updated height */
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+        }
+        .text-area {
+            min-width: 50%;
+            min-height: 150px;
+            margin: 10px;
+            border-radius: 5px;
+            padding: 5px;
+            border: 2px solid black;
+            font-size: 16px;
+            resize: none;
+        }
+    </style>
+    <script>
+        function redirect(url) {
+            window.location.href = url;
+        }
+    </script>
+</head>
+<body class="pixelify-sans">
+    <div class="container">
+        <h1>Staffs</h1>
+        <div class="center-image-container">
+            <a href="../Staffs/LaraLMA.html"><img class="center-image" src="../Img/Lara.png" alt="Centered Image"></a>
+            <a href="../Staffs/JoacoQ.html"><img class="center-image" src="../Img/Joaco.jpg" alt="Centered Image"></a>
+            <a href="../Staffs/Smiler.html"><img class="center-image" src="../Img/Smiler.jpg" alt="Centered Image"></a>
+            <a href="../Staffs/Sharito.html"><img class="center-image" src="../Img/Shari.png" alt="Centered Image"></a>
+            <a href="../Staffs/Sniiikeparrrr.html"><img class="center-image" src="../Img/Snikee.png" alt="Centered Image"></a>
+        </div>
+        <textarea class="text-area" placeholder="Hola a tod@s! Las imágenes que están presentes actualmente son del staff de la gran comunidad que tenemos. Recuerden agradecerles todo el trabajo realizado junto a Lara que hizo todo esto posible!"></textarea>
+    </div>
+</body>
+</html>
